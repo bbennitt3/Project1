@@ -1,0 +1,10 @@
+.bash_history
+.cache/
+.conda/
+.gitconfig
+.ipython/
+.jupyter/
+.ssh/
+PCBENV/
+cdssetup/
+pycharm-community-2019.3.exe
