@@ -8,6 +8,6 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 
 html {
   font-family: Helvetica, Arial, sans-serif;
-  font-size: 18px;
-  line-height: 22px; /*About 120% of 18px*/
+  font-size: 1.125em; /* 18px / 16px = result */
+  line-height: 1.22222em; /*About 120% of 18px*/
 }
