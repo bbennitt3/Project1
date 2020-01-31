@@ -15,3 +15,7 @@ html {
 h1, p {
   padding-bottom: 1.22222em
 }
+
+h1{
+  font-weight: bold;
+}
