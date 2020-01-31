@@ -10,6 +10,7 @@ html {
   font-family: Helvetica, Arial, sans-serif;
   font-size: 1.125em; /* 18px / 16px = result */
   line-height: 1.22222em; /*About 120% of 18px*/
+  padding: 1.22222em 1.833333em; /* 33 / 18 */
 }
 
 h1, p {
@@ -19,3 +20,5 @@ h1, p {
 h1{
   font-weight: bold;
 }
+
+/*when dealing with lists use "list-style-type:" */
