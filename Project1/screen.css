@@ -9,8 +9,12 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 html {
   font-family: Helvetica, Arial, sans-serif;
   font-size: 1.125em; /* 18px / 16px = result */
-  line-height: 1.22222em; /*About 120% of 18px*/
-  padding: 1.22222em 1.833333em; /* 33 / 18 */
+  line-height: 1.4em; /*About 120% of 18px*/
+  padding: 1.22222em 36px; /* I found that using px for the padding works better for the width on a mobile device.*/
+}
+
+body {
+  background-color: #90CCF4;
 }
 
 h1, p {
@@ -20,6 +24,7 @@ h1, p {
 h1{
   font-weight: bold;
   text-align: center;
+  font-size: 1.5em
 }
 
 img {
@@ -27,8 +32,9 @@ img {
   margin-left: auto;
   margin-right: auto;
   width: 50%;
-  max-width: 100%;
+  max-width: 10em;
   height: auto;
+  padding-bottom: 1.22222em
 }
 
 /*when dealing with lists use "list-style-type:" */
