@@ -11,6 +11,7 @@ html {
   font-size: 1.125em; /* 18px / 16px = result */
   line-height: 1.4em; /*About 120% of 18px*/
   padding: 1.22222em 36px; /* I found that using px for the padding works better for the width on a mobile device.*/
+  padding-bottom: 4em;
 }
 
 body {
@@ -21,10 +22,14 @@ h1, p {
   padding-bottom: 1.22222em;
 }
 
-h1{
+h1,h2{
   font-weight: bold;
   text-align: center;
   font-size: 1.6em;
+}
+
+h2{
+  padding-bottom: .4444em
 }
 
 img {
@@ -35,6 +40,19 @@ img {
   max-width: 10em;
   height: auto;
   padding-bottom: 1.22222em
+}
+
+.links{
+  font-size: 1.22222em;
+  text-align: center;
+
+
+}
+
+ul{
+  list-style-type: disc;
+  display: inline-block;
+  text-align: left;
 }
 
 /*when dealing with lists use "list-style-type:" */
