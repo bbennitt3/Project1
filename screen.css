@@ -23,9 +23,9 @@ h1, p {
 }
 
 h1,h2{
+  font-size: 1.6em;
   font-weight: bold;
   text-align: center;
-  font-size: 1.6em;
 }
 
 h2{
@@ -34,24 +34,19 @@ h2{
 
 img {
   display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-  max-width: 10em;
-  height: auto;
+  max-width: 100%;
   padding-bottom: 1.22222em
+  /* Try to reformat with notes from class even if it doesn't look that good. */
 }
 
 .links{
   font-size: 1.22222em;
   text-align: center;
-
-
 }
 
 ul{
-  list-style-type: disc;
   display: inline-block;
+  list-style-type: disc;  
   text-align: left;
 }
 
