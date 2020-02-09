@@ -7,49 +7,56 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 /* Custom CSS style starts here */
 
 /* Using a Perfect Fourth modular scale:
-   https://www.modularscale.com/?18&px&1.333 */
+   https://www.modularscale.com/?18&px&1.25 */
 
 html {
+  background-color: #90CCF4;    /*blue */
   font-family: 'Roboto', Arial, sans-serif;
   font-size: 1.125em; /* 18px / 16px = result */
-  line-height: 1.222em; /* 18px * 1.20 = 22px, 22px / 18px = 1.222em */
-  padding: 1.222em 2em;
-  padding-bottom: 4em;
-  text-rendering: optimizeLegibility;
+  line-height: 1.25em; /* 22.5px / 18px = 1.25em */
+  padding: 1.5625em; /* 28.125px / 18px = 1.5625em */
+  padding-bottom: 3.8147em; /* 68.665px / 18px = 3.8147em */
+  text-rendering: optimizeLegibility; /* used as described in HDWWPT */
   text-size-adjust: 100%;
 }
 
-body {
-  background-color: #90CCF4; /*blue*/
-}
-
-h1, p {
-  padding-bottom: 1.22222em;
-}
-
-h1,h2{
+h1,
+h2 {
+  font-family: 'Merriweather', Arial, sans-serif;
   font-weight: bold;
   text-align: center;
 }
 
 h1{
-  font-size: 1.776em; /* 31.984px / 18px = 1.77em, check this on my phone because the header was all messed up */
-}
-h2{
-  font-size: 1.776em; /* 31.984px / 18px = 1.77em */
-  padding-bottom: .4444em
+  font-size: 1.953em; /* 35.156px / 18px = 1.953em */
+  line-height: 1em; /* 35.156px / 35.156px = 1em */
+  padding-bottom: .512em; /* 18px / 35.156px = .4096em */
 }
 
+h2{
+  font-size: 1.5625em; /* 28.125px / 18px = 1.5625em */
+  padding-bottom: .262em; /* 7.373 / 28.125px = .262em */
+}
+
+p {
+  padding-bottom: 1.25em; /* 22.5px / 18px = 1.25em */
+}
+
+/*all good up to here */
 img {
   display: block;
   max-width: 100%;
-  padding-bottom: 1.22222em
+  padding-bottom: 1em; /* 9.216px / 18px */
+}
+
+.pro-picture {
+  background: black;
 }
 
 .links{
-  font-size: 1.333em; /* 23.994px / 18px = 1.333em */
+  font-size: 1.25em; /* 22.5px / 18px = 1.25em */
   text-align: center;
-  line-height: 1.222em
+  line-height: 1.222em;
 }
 
 ul{
