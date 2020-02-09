@@ -30,7 +30,7 @@ h2 {
 h1{
   font-size: 1.953em; /* 35.156px / 18px = 1.953em */
   line-height: 1em; /* 35.156px / 35.156px = 1em */
-  padding-bottom: .512em; /* 18px / 35.156px = .4096em */
+  /*padding-bottom: .512em; /* 18px / 35.156px = .4096em */
 }
 
 h2{
@@ -42,21 +42,31 @@ p {
   padding-bottom: 1.25em; /* 22.5px / 18px = 1.25em */
 }
 
-/*all good up to here */
+/* Responsive media */
+
 img {
   display: block;
   max-width: 100%;
-  padding-bottom: 1em; /* 9.216px / 18px */
 }
 
 .pro-picture {
-  background: black;
+  background: #A9A9A9; /* darkgray */
+  padding: 1.25em; /* 22.5px / 18px = 1.25em */
+  margin-top: 1em; /* 18px / 18px = 1em */
+  margin-bottom: 1em; /* 18px / 18px = 1em */
+}
+
+.pro-picture figcaption {
+  padding-top: 0.64em; /* 11.52px / 18px = 0.64em */
+  /* Use to not show the caption */
+  position: absolute;
+  left: -10000px;
 }
 
 .links{
   font-size: 1.25em; /* 22.5px / 18px = 1.25em */
   text-align: center;
-  line-height: 1.222em;
+  line-height: 1.25em; /* 22.5px / 18px = 1.25em */
 }
 
 ul{
@@ -64,7 +74,3 @@ ul{
   list-style-type: disc;
   text-align: left;
 }
-
-/*when dealing with lists use "list-style-type:" */
-/*Try and center the image once it gets going*/
-/*See end of video for google fonts to customize the fonts*/
