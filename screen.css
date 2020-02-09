@@ -17,6 +17,9 @@ html {
   padding: 1.5625em; /* 28.125px / 18px = 1.5625em */
   padding-bottom: 3.8147em; /* 68.665px / 18px = 3.8147em */
   text-rendering: optimizeLegibility; /* used as described in HDWWPT */
+  -webkit-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
   text-size-adjust: 100%;
 }
 
