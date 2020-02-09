@@ -4,14 +4,19 @@
 */
 html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}html{line-height:1}body{line-height:inherit;}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}table{border-collapse:collapse;border-spacing:0}
 
-/* Begin site styles... */
+/* Custom CSS style starts here */
+
+/* Using a Perfect Fourth modular scale:
+   https://www.modularscale.com/?18&px&1.333 */
 
 html {
   font-family: 'Roboto', Arial, sans-serif;
   font-size: 1.125em; /* 18px / 16px = result */
-  line-height: 1.35em; /*About 120% of 18px*/
-  padding: 1.22222em 2em;
+  line-height: 1.222em; /* 18px * 1.20 = 22px, 22px / 18px = 1.222em */
+  padding: 1.222em 2em;
   padding-bottom: 4em;
+  text-rendering: optimizeLegibility;
+  text-size-adjust: 100%;
 }
 
 body {
@@ -23,12 +28,15 @@ h1, p {
 }
 
 h1,h2{
-  font-size: 1.6em;
   font-weight: bold;
   text-align: center;
 }
 
+h1{
+  font-size: 1.776em; /* 31.984px / 18px = 1.77em, check this on my phone because the header was all messed up */ 
+}
 h2{
+  font-size: 1.776em; /* 31.984px / 18px = 1.77em */
   padding-bottom: .4444em
 }
 
@@ -39,7 +47,7 @@ img {
 }
 
 .links{
-  font-size: 1.22222em;
+  font-size: 1.333em; /* 23.994px / 18px = 1.333em */
   text-align: center;
 }
 
